@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="row">
+        <img src="logo.png" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Asia</a></li>
+          <li><a href="#">Europe</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="middle">LET'S</h1>
+        <h1 class="middle">PROTECT OUR</h1>
+        <h1 class="middle">FOREST</h1>
+        <div class="greet"><h1>WELCOME!</h1></div>
+        <div>
+          <button class="btn" onclick="clickbutton()">Sign Up</button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <img src="" />
+
+    <div class="ring">
+      Loading
+      <span></span>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(window).on("load", function () {
+        $(".ring").fadeOut("slow");
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
